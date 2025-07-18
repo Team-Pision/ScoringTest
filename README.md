@@ -164,7 +164,7 @@ mlPrediction == "snooze" || ear < 0.18 || abs(yaw) > 0.3
 
 ---
 
-## 🧮 6단계: Total Score + 집중 추적
+## 🧩 6단계: Total Score + 집중 추적
 
 ```swift
 currentTotalScore = coreScore * 0.7 + auxScore * 0.3
@@ -185,7 +185,7 @@ totalFocusTime = sum(focusSegments.map { $0.end - $0.start })
 
 ---
 
-## 🧾 7단계: 세션 종료 결과 생성
+## 🧩 7단계: 세션 종료 결과 생성
 
 📁 `getSessionData()`
 
